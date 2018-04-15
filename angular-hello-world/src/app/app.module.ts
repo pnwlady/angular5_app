@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { VendorsComponent } from './vendors/vendors.component';
+import { LocationComponent } from './location/location.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    VendorsComponent
+    VendorsComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule

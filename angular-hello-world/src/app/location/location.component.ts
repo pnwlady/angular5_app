@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./location.component.css']
 })
 export class LocationComponent implements OnInit {
+  town: string;
 
-  constructor() { }
+  constructor() { 
+    this.town = ['Deer Harbor', 'Eastsound', 'West Sound', 'Olga', 'Orcas', 'Waldron'];
+  }
 
   ngOnInit() {
   }

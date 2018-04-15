@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./vendors.component.css']
 })
 export class VendorsComponent implements OnInit {
+  category: string;
 
-  constructor() { }
+  constructor() {
+   this.category = ['Arts & Crafts', 'Farm', 'Food', 'Service', 'Non-Profit'];
+  }
 
   ngOnInit() {
   }
